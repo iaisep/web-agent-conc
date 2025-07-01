@@ -45,7 +45,7 @@ const CallComponent: React.FC = () => {
   async function registerCall(agentId: string, promptId: string): Promise<RegisterCallResponse> {
     try {
 
-       const response = await fetch("https://llm.developuisep.store/create-web-call", {
+       const response = await fetch("https://iallamadas.universidadisep.com/create-web-call", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
